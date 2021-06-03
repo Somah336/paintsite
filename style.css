@@ -1,0 +1,127 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/paintbrush.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.logo{
+    width: 110px;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 25px;
+}
+nav ul li a{
+    color: gold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: azure;
+}
+.upload-btn{
+    background: red;
+    color: gold;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-left: 25px;
+    transition: transform 0.5s;
+}
+.upload-btn:hover{
+    transform: scale(0.9);
+}
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+.content h1{
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.gallery{
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+
+.gallery h2{
+    color: #535353;
+    font-weight: 500;
+    font-size: 26px;
+    margin: 20px 12px;
+}
+
+.masonary{
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 1800px;
+    margin: auto;
+    width: 100%;
+}
+.m-block{
+    width: 33.33%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.m-block img{
+    width: 100%;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.m-block img:hover{
+    transform: scale(1.05);
+}
+
+.explore-btn{
+    display: block;
+    width: 50%;
+    max-width: 350px;
+    background: #ff1d30;
+    color: #fff;
+    text-decoration: none;
+    text-align:center;
+    padding: 14px 0;
+    border-radius: 30px;
+    margin: 60px auto;
+}
+.hero2{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/bluebackground.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
